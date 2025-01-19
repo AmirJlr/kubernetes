@@ -1,7 +1,7 @@
 # StatefulSet Redis Example
 
 This README provides step-by-step instructions for deploying a Redis StatefulSet, interacting with it, and cleaning up resources.
-This example is inspired by the book Kubernetes for Developers. For more information, check it out
+This example is inspired by the book Kubernetes for Developers. For more information, check it out.
 
 
 ## Steps
