@@ -6,6 +6,7 @@ spec:
   selector:
     app: random-number-client
   ports:
-  - port: 8080
-    targetPort: 5000
-  type: LoadBalancer
+  - port: 8080         
+    targetPort: 5000 
+    nodePort: 30080 # Static NodePort in the range 30000–32767 (optional)
+  type: NodePort
