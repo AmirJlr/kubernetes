@@ -120,6 +120,7 @@ This binds the cluster and user together into a context called `sarah-context` a
 Set the `KUBECONFIG` environment variable to use Sarah’s kubeconfig:
 
 ```bash
+kubectl config use-context sarah-context --kubeconfig=sarah-kubeconfig.yaml
 export KUBECONFIG=sarah-kubeconfig.yaml
 ```
 
