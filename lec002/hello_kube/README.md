@@ -6,16 +6,16 @@ This command creates a local image named `hello_kube` with the tag version `1.0.
 docker buildx build -t hello_kube:1.0.0 .
 ```
 
-The following command tags the local image with your remote registry username, making it ready to push to the repository. Please replace `aaghamohammadi` with your current registry username for the following commands.
+The following command tags the local image with your remote registry username, making it ready to push to the repository. 
 
 ```sh
-docker tag hello_kube:1.0.0 aaghamohammadi/hello_kube:1.0.0
+docker tag hello_kube:1.0.0 iamirjb/hello_kube:1.0.0
 ```
 
 Make sure you log in to your registry in order to push the image.
 
 ```sh
-docker push aaghamohammadi/hello_kube:1.0.0
+docker push iamirjb/hello_kube:1.0.0
 ```
 
 
@@ -24,7 +24,7 @@ You can run a simple Pod using an imperative command, although it is not recomme
 The following command runs a pod named `hello-kube` with a single container in it. The restart policy for the pod is determined by the `--restart` flag. Legal values are `["Always", "OnFailure", "Never"]`. The default value is `"Always"`.
 
 ```sh
-kubectl run hello-kube --image=aaghamohammadi/hello_kube:1.0.0 --restart=Never
+kubectl run hello-kube --image=iamirjb/hello_kube:1.0.0 --restart=Never
 ```
 
 You can list all the pods in the current cluster using:
