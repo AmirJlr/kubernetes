@@ -7,4 +7,4 @@ metadata:
 spec:
   containers:
     - name: web
-      image: aaghamohammadi/hello_kube:1.0.0
+      image: iamirjb/hello_kube:1.0.0
