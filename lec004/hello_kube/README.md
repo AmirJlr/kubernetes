@@ -4,7 +4,7 @@ A **controller** in Kubernetes is a resource responsible for managing other reso
 Use the following command to create a Deployment named `hello-kube` with the specified container image:
 
 ```sh
-kubectl create deployment hello-kube --image=aaghamohammadi/hello_kube:1.0.0
+kubectl create deployment hello-kube --image=iamirjb/hello_kube:1.0.0
 ```
 
 List all deployments to ensure it was created successfully:
