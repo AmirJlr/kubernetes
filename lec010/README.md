@@ -27,9 +27,9 @@ Ensure you are logged in to your container registry (e.g., Docker Hub):
 
 ```bash
 # Tag and push spacex-app image
-docker tag spacex-app:1.0.0 <your-registry>/spacex-app:1.0.0
+docker tag spacex-app:1.0.0 iamirjb/spacex-app:1.0.0
 
-docker push <your-registry>/spacex-app:1.0.0
+docker push iamirjb/spacex-app:1.0.0
 ```
 
 Replace `<your-registry>` with your actual container registry (e.g., `docker.io/username`).
