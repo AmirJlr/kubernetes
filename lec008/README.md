@@ -31,17 +31,15 @@ Ensure you are logged in to your container registry (e.g., Docker Hub or another
 
 ```bash
 # Tag and push random-number-api
-docker tag random-number-api:1.0.0 <your-registry>/random-number-api:1.0.0
+docker tag random-number-api:1.0.0 iamirjb/random-number-api:1.0.0
 
-docker push <your-registry>/random-number-api:1.0.0
+docker push iamirjb/random-number-api:1.0.0
 
 # Tag and push random-number-client
-docker tag random-number-client:1.0.0 <your-registry>/random-number-client:1.0.0
+docker tag random-number-client:1.0.0 iamirjb/random-number-client:1.0.0
 
-docker push <your-registry>/random-number-client:1.0.0
+docker push iamirjb/random-number-client:1.0.0
 ```
-
-Replace `<your-registry>` with your actual container registry (e.g., `docker.io/username`).
 
 ---
 
