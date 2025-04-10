@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: spacex-app
-        image: aaghamohammadi/spacex-app:1.0.0
+        image: iamirjb/spacex-app:1.0.0
         ports:
         - containerPort: 5000
