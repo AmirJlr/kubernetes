@@ -11,7 +11,12 @@ This guide helps students learn to use ConfigMap with the help of Volumes in Kub
 Apply the ConfigMap to the cluster:
 
 ```bash
-kubectl apply -f redis-config.yaml
+kubectl apply -f redis-config.yaml 
+
+
+Trick: build a yaml declerative manifest from an impretive command:
+
+kubectl create configmap redis-config --from-file=configmap/redis.conf --dry-run=client -o yaml
 ```
 
 ### 2. Create the Redis Deployment
