@@ -24,7 +24,7 @@ spec:
               mountPath: /etc/secrets
               readOnly: true
             - name: postgres-data
-              mountPath: /var/lib/postgresql/data
+              mountPath: /var/lib/postgresql/data # container
       volumes:
         - name: postgres-secret-volume
           secret:
@@ -32,5 +32,5 @@ spec:
             defaultMode: 0400
         - name: postgres-data
           hostPath:
-            path: /data/postgres
+            path: /data/postgres # node(laptap or server)
             type: DirectoryOrCreate
