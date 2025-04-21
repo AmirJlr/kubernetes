@@ -8,6 +8,11 @@ This guide helps students learn to use Secrets with the help of Volumes in Kuber
 
 ### 1. Create a Secret for Postgres Password
 
+Encode password with base64 in linux:
+```bash
+echo -n "PASSWORD" | base64
+```
+
 Create a Secret to store the Postgres password. You can apply the Secret by running:
 
 ```bash
