@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: random-number-api
-        image: aaghamohammadi/random-number-api:1.0.0
+        image: iamirjb/random-number-api:1.0.0
         ports:
         - containerPort: 5000  

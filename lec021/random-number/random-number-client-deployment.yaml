@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: random-number-client
-        image: aaghamohammadi/random-number-client:1.0.0
+        image: iamirjb/random-number-client:1.0.0
         ports:
         - containerPort: 5000 
