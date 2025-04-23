@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: random-number-api
-          image: aaghamohammadi/random-number-api:2.0.0
+          image: iamirjb/random-number-api:2.0.0
           volumeMounts:
             - name: logs
               mountPath: /logs
