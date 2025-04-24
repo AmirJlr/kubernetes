@@ -20,7 +20,7 @@ spec:
               echo "CREATE DATABASE customers;" > /docker-entrypoint-initdb.d/init.sql
               echo "\c customers" >> /docker-entrypoint-initdb.d/init.sql  # Connect to the database
               echo "CREATE TABLE profiles (id SERIAL PRIMARY KEY, name TEXT);" >> /docker-entrypoint-initdb.d/init.sql
-              echo "INSERT INTO profiles (name) VALUES ('Alireza');" >> /docker-entrypoint-initdb.d/init.sql
+              echo "INSERT INTO profiles (name) VALUES ('Amir Jlr');" >> /docker-entrypoint-initdb.d/init.sql
           volumeMounts:
             - name: postgres-init-sql
               mountPath: /docker-entrypoint-initdb.d
