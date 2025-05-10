@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   selector:
-    app: random-number-api-blue
+    app: random-number-api-green #  random-number-api-blue Blue/Green
   ports:
     - protocol: TCP
       port: 80
